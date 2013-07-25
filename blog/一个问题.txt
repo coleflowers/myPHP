@@ -1,3 +1,1 @@
 ﻿编辑器
-
-安装使用指导http://docs.ckeditor.com/#!/guide/dev_installation
