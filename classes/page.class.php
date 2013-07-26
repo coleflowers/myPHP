@@ -2,6 +2,7 @@
 	/**
 	*	file: page.class.php 
 	*	完美分页类 Page 
+	*   @author 高洛峰
 	*/
 	class Page {
 		private $total;   		 				//数据表中总记录数
