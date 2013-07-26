@@ -7,22 +7,22 @@
 	// 项目的根路径，也就是框架所在的目录
 
 	define("TMPPATH","candelete/");
-	define("HOST", "localhost");			      //数据库主机
-	define("USER", "study");                               //数据库用户名
-	define("PASS", "123456");                              //数据库密码
+	define("HOST", "localhost");			  //数据库主机
+	define("USER", "study");                  //数据库用户名
+	define("PASS", "123456");                 //数据库密码
 	define("DBNAME", "study");			      //数据库名
-	define("TABPREFIX", "bro_");                           //数据表前缀
+	define("TABPREFIX", "bro_");              //数据表前缀
 
 	//设置包含目录（类所在的全部目录）,  PATH_SEPARATOR 分隔符号 Linux(:) Windows(;)
-	$include_path=get_include_path();                         //原基目录
+	$include_path=get_include_path();                       //原基目录
 	$include_path.=PATH_SEPARATOR.FRAMEWORK."bases/";       //框架中基类所在的目录
 	$include_path.=PATH_SEPARATOR.FRAMEWORK."classes/" ;    //框架中扩展类的目录
 	$include_path.=PATH_SEPARATOR.FRAMEWORK."libs/" ;       //模板Smarty所在的目录
 	$include_path.=PATH_SEPARATOR.FRAMEWORK."libs/sysplugins/";
 	$include_path.=PATH_SEPARATOR.FRAMEWORK."classes/";    //项目中用的到的工具类
-	$include_path.=PATH_SEPARATOR.APP."controls/";    //项目中的类
-	$include_path.=PATH_SEPARATOR.APP."models/";    //项目中的类
-	$include_path.=PATH_SEPARATOR.APP."views/";    //项目中的类
+	$include_path.=PATH_SEPARATOR.APP."controls/";         //项目中的类
+	$include_path.=PATH_SEPARATOR.APP."models/";          //项目中的类
+	$include_path.=PATH_SEPARATOR.APP."views/";           //项目中的类
 	
 	//设置include包含文件所在的所有目录	
 	set_include_path($include_path);
