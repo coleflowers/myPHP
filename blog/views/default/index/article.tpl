@@ -1,10 +1,7 @@
 				<{foreach $ddd as $article}>
 				<div class="article" id="article1">
-<<<<<<< HEAD
 					<a target="_blank" href='./article.php?id=<{$article["id"]}>'><h3><{$article["title"]}></h3></a>
-=======
-					<h3><{$article["title"]}></h3>
->>>>>>> 9f11cafa3122f0eee8eb38002549ce78a5c4b07b
+
 					<div class="abouta">
 						作者：<a target="_blank" href="#"><{$article["author"]}></a> | 
 						时间：<{$article["addtime"]}> | 
@@ -26,11 +23,8 @@
 							<!-- 考虑关键词长度及总长度 -->
 						</div>
 						<div class="mored">
-<<<<<<< HEAD
 							<span class="more"><b><a target="_blank" href="./article.php?id=<{$article["id"]}>">查看全文</a></b></span>
-=======
-							<span class="more"><b><a target="_blank" href="#">查看全文</a></b></span>
->>>>>>> 9f11cafa3122f0eee8eb38002549ce78a5c4b07b
+
 						</div>
 					</div>
 				</div>
