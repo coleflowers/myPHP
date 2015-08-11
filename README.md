@@ -1,7 +1,5 @@
 #myPHP
 
-这里是我自学PHP过程中的作业
-
 ##vcode.class.php
 
 验证码类，通过参数提供的字符库随机生成图片，并把图片上的字符保存到`$_SESSION["code"]`中，代码改编自，《细说PHP》中的`vcode.class.php`主要做了以下修改  
