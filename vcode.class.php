@@ -1,7 +1,7 @@
 <?php
 /**
  * @file:   vcode.class.php 验证码类 类名:Vcode
- * @author  马磊雷
+ * @author  马思
  * @date    2013-10-26
  *          本程序参考了《细说PHP》P386的验证码类，功能方面有所扩展
  *          1、支持中文字符，且字符库以参数形式传递；
